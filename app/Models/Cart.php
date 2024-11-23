@@ -9,7 +9,7 @@ class Cart extends Model
 {
     /** @use HasFactory<\Database\Factories\CartFactory> */
     use HasFactory;
-    protected $primaryKey = 'cart_id';
+
     protected $fillable = [
         'book_title',
         'pieces'
